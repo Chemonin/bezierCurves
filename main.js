@@ -25,7 +25,6 @@ const drawPoint = function (cordX, cordY)  {
 }
 const renderCurve = function(cords) {
   const bezier = new PIXI.Graphics();
-  window.alert(bezier.height);
   bezier.lineStyle(LINE_WIDTH, 0x6b5d5d, 1);
   bezier.position.x = pointsCord.startCords[0];
   bezier.position.y = pointsCord.startCords[1];
